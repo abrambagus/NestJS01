@@ -8,10 +8,10 @@ import {
   Post,
   Query,
 } from '@nestjs/common';
-import { Protocol } from 'src/common/decorators/protocol.decorator';
-import { Public } from 'src/common/decorators/public.decorator';
-import { PaginationQueryDto } from 'src/common/dto/pagination-query.dto';
-import { ParseIntPipe } from 'src/common/pipes/parse-int.pipe';
+import { Protocol } from '../../src/common/decorators/protocol.decorator';
+import { Public } from '../../src/common/decorators/public.decorator';
+import { PaginationQueryDto } from '../../src/common/dto/pagination-query.dto';
+import { ParseIntPipe } from '../../src/common/pipes/parse-int.pipe';
 import { CoffeesService } from './coffees.service';
 import { CreateCoffeeDto } from './dto/create-coffee.dto';
 import { UpdateCoffeeDto } from './dto/update-coffee.dto';
